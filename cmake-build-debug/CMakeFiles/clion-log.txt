@@ -1,0 +1,4 @@
+/home/margo/Загрузки/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/margo/Загрузки/CLion-2021.3.3/clion-2021.3.3/bin/ninja/linux/ninja -D BUILD_TESTS=ON -G Ninja /home/margo/lab05
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/margo/lab05/cmake-build-debug
