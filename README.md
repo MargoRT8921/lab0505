@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/MargoRT8921/lab0505/badge.svg?branch=main)](https://coveralls.io/github/MargoRT8921/lab0505?branch=main)
+
+
 ## Laboratory work V
 
 Данная лабораторная работа посвещена изучению фреймворков для тестирования на примере **GTest**
