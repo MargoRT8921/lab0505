@@ -26,7 +26,7 @@ TEST(Transaction, Banking){
     ASSERT_EQ(test_tran.Make(Alice, Bob, 1000), true);
     ASSERT_EQ(Bob.GetBalance(), base_B+1000);
     ASSERT_EQ(Alice.GetBalance(), base_A-1000-base_fee);
-    
+
     ASSERT_EQ(test_tran.Make(Alice, Bob, 3900), false);
     ASSERT_EQ(Bob.GetBalance(), base_B+1000);
     ASSERT_EQ(Alice.GetBalance(), base_A-1000-base_fee);

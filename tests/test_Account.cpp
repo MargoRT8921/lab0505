@@ -4,7 +4,7 @@
 TEST(Account, Banking){
 //создаём тестовый объект
 Account test(0,0);
-//проверяем GetBalance (и заодно конструктор)
+
 ASSERT_EQ(test.GetBalance(), 0);
 //проверяем, что фича lock работает нормально
 ASSERT_THROW(test.ChangeBalance(100), std::runtime_error);
